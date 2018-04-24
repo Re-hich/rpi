@@ -1,0 +1,115 @@
+/*header*/
+#logo img{height: 126px;}
+
+/*Contenido*/
+div.ds-1col.node.node-fitxa-basica.view-mode-full.clearfix{
+   margin-left: 10%
+}
+#info{margin-left: 5%;}
+.amar{color:#E3D172}
+p #negro{color:black}
+.rojo{color:#960435}
+.azul{color:#0059A2}
+.neg{color:black}
+.triptic .azul{font-size: 15px}
+#lpdf{width:10%;
+    height:auto;
+vertical-align: middle;
+margin-right: 1%;}
+#linf{width:11%;
+    height:auto;
+    vertical-align: middle;}
+#esq2 {
+    margin-top: 3%;
+    width:70%;
+}
+.titulo{
+    width:70%;
+}
+/*Redes sociales*/
+.logosred img{
+	width:10%;
+	position: relative;
+    left: 50%;
+    margin-top: -6%;}
+
+#block-follow-site h2{
+	position: relative;
+    left: 25%;}
+#oculto,#block-views-menu-fitxa-block-1{
+	display:none;
+}
+
+/*footer*/
+.sombra{
+	float: right;
+    width: 400px;
+	margin: -6% 0% 0% 0%;}
+.titol_leru{margin-right:50px;}
+
+.logo_leru{    
+	margin-right: 85px;
+    margin-left: -7px;
+}
+
+/*Menu*/
+#menu {
+    /*float:left;*/
+    margin-left: 7%;
+    overflow:hidden;
+}
+#menu a{
+    text-decoration:none;
+    color:#fff;
+}
+#menu .active { background-color: #0059A2; }
+
+#menu li {
+    float: left;
+    overflow: hidden;
+    list-style: none;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    background: #0059A2;
+    color: #fff;
+    text-align: center;
+    min-width: 132px;
+}
+#menu li:hover {
+    cursor:pointer;
+    background-color: #d3bf8c;
+    
+    
+}
+#menu li img{
+    margin: 0px 0px -2px 0px;
+}
+#menu ul{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 11px;
+    max-width: 132px;
+    overflow: hidden;
+}
+#menu ul li {
+    background:#0059A2;
+    padding: 10px 0px;
+    border: 1px solid #ddd;
+    text-align: center;
+    min-width: 132px;
+    
+}
+@media screen and (max-width: 580px) {
+    #menu li {
+        float:none;
+    }
+    #menu ul {
+        position: relative;
+    }
+    
+    #menu ul li {
+        border:none;
+    }
+}
+/*.ds-1col.node.node-fitxa-basica.view-mode-full.clearfix h2{margin-left: 60px;}*/

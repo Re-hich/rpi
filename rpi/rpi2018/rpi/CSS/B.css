@@ -1,0 +1,130 @@
+.butlleti{
+    margin-left:5%;
+    height:auto;
+    max-height:100vw;
+	min-width:90vw;
+	max-width:90vw;
+}
+
+.headerbutlleti img , .postitbutlleti{
+    width:90%;
+    margin-left:5%;
+  }
+
+.postitbutlleti{
+    min-height:400px;
+	max-height:100vw;
+}
+.Actualitat,.Avisos,.Agenda,.Cursos,.Postgraus,.Ocupabilitat,.Convocatories,.Enllacos,.Qualitat{
+    height:auto;
+	margin-bottom:5%;
+	margin-top:2%;
+    width:80%;
+    border: solid 2px;
+    border-color: goldenrod;
+}
+.Actualitat ul a,,.Avisos ul a,.Agenda ul a,.Cursos ul a,.Postgraus ul a,.Ocupabilitat ul a,.Convocatories ul a,.Enllacos ul a,.Qualitat ul a{
+	color:#900;
+}
+.sectionsbutlleti li{
+background: url(http://www.ub.edu/entornsweb/dret/be/css_img/icons/i-bullet-header-pinkb10833_6x6.png) no-repeat 0 4px;
+display: list-item;
+margin-left: 5px;
+padding-left: 15px;
+margin-bottom: .5em;
+list-style: none inside;
+
+}
+.Actualitatbutlleti{
+	height:24.5%;
+	width:60%;
+    float:left;
+    margin-bottom:0.5%;
+}
+
+.Postgrausbutlleti{
+    height:24.5%;
+    width:60%;
+    float:left;
+    margin-bottom:0.5%;
+}
+
+.Avisosbutlleti{
+    width:39.5%;
+    height:50.5%;
+    float:right;
+    margin-bottom:0.5%;
+    margin-left:0.5%;
+}
+
+.Agendabutlleti{
+    width:32.9%;
+    float:right;
+    margin-bottom:0.5%;
+    height:40%;
+
+}
+
+.Cursosbutlleti{
+    width:32.9%;
+    float:left;
+    margin-bottom:0.5%;
+    margin-right:0.65%;
+    height:40%;
+}
+
+.Ocupabilitatbutlleti{
+    width:32.9%;
+    float:left;
+    margin-bottom:0.5%;
+    margin-left:0.65%;
+    height:40%;
+}
+.Convocatoriesbutlleti{
+    width:100%;
+    margin-bottom:0.5%;
+}
+
+.Enlacesbutlleti{
+    width:49.5%;
+    margin-bottom:0.5%;
+    float:left;
+}
+
+.Qualitatbutlleti{
+    width:49.5%;
+    margin-bottom:0.5%;
+    float:right;
+}
+
+.tit{
+	height:auto;
+	border-bottom:solid 3px;
+	border-bottom-color:#960435;
+	background-color: #0059A2;
+}
+
+.tit h1{
+	margin-bottom: -4px;
+    color: white;
+    margin-top: 0px;
+}
+
+.tit img{
+	height: 33px;
+    float: left;
+	
+}
+.sectionsbutlleti{
+    float: left;
+    width: 100vw;
+    margin-left: 5%;}
+.actualitat ul{
+		margin-right:5%;
+
+}
+.flecha{
+	float:right!important;
+	margin-top: -3.4%;
+    padding-right: 0.5%;;
+}

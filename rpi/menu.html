@@ -1,0 +1,84 @@
+<html>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://www.ub.edu/rpi/CSS/rpicss2.css" media="all" />
+
+    <body>
+        
+        <nav id="menu">
+            <li><a href="http://www.ub.edu/rpi/ES/" >INICIO</a></li>
+            <li><a href="http://www.ub.edu/rpi/ES/Postgrados.html">POSTGRADOS</a><img src="http://i.imgur.com/YumZS1I.png" width="13" height="12">
+            <ul style="display:none">
+                <li><a href="http://www.ub.edu/rpi/ES/Destinatarios.html">DESTINATARIOS</a></li>
+                <li><a href="http://www.ub.edu/rpi/ES/Matricula.html">MATRICULA</a></li>
+                <li><a href="http://www.ub.edu/rpi/ES/Modulos.html">MODULOS</a></li>
+                <li><a href="http://www.ub.edu/rpi/ES/Objetivos.html">OBJETIVOS</a></li>
+                <li><a href="http://www.ub.edu/rpi/ES/Metodologia.html">METODOLOGIA</a></li>
+                <li><a href="http://www.ub.edu/rpi/ES/Precios.html">PRECIOS</a></li>
+                </ul>
+            </li>
+            <li><a href="http://www.ub.edu/rpi/ES/eRPI/" >eRPI</a> <img src="http://i.imgur.com/YumZS1I.png" width="13" height="12">
+                <ul style="display:none">
+                    <li><a href="http://www.ub.edu/rpi/ES/eRPI/Programa.html" >PROGRAMA</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/eRPI/CalendarioHorarios.html">CALENDARIO, HORARIO Y LUGAR</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/eRPI/Evaluacion.html">EVALUACION</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/eRPI/Profesores.html">PROFESORADO</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/eRPI/PrecioMatricula.html">PRECIO Y MATRICULA</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/eRPI/Convalidacion.html">CONVALIDACION</a></li>
+                </ul>
+                
+                </li>
+            <li><a href="http://www.ub.edu/rpi/ES/csu_patrimonial/" >csu_PATRIMONIAL</a> <img src="http://i.imgur.com/YumZS1I.png" width="13" height="12">
+                <ul style="display:none">
+                    <li><a href="http://www.ub.edu/rpi/ES/csu_patrimonial/Programa.html" >PROGRAMA</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csu_patrimonial/CalendarioHorarios.html">CALENDARIO, HORARIO Y LUGAR</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csu_patrimonial/Evaluacion.html">EVALUACION</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csu_patrimonial/Profesores.html">PROFESORADO</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csu_patrimonial/PrecioMatricula.html">PRECIO Y MATRICULA</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csu_patrimonial/Convalidacion.html">CONVALIDACION</a></li>
+                </ul>
+                
+                </li>
+            <li><a href="http://www.ub.edu/rpi/ES/csuFamilia_successions/" >csuFAMILIA_SUCCESSIONS</a> <img src="http://i.imgur.com/YumZS1I.png" width="13" height="12">
+                <ul style="display:none">
+                    <li><a href="http://www.ub.edu/rpi/ES/csuFamilia_successions/Programa.html" >PROGRAMA</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csuFamilia_successions/CalendarioHorarios.html">CALENDARIO, HORARIO Y LUGAR</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csuFamilia_successions/Evaluacion.html">EVALUACION</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csuFamilia_successions/Profesores.html">PROFESORADO</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csuFamilia_successions/PrecioMatricula.html">PRECIO Y MATRICULA</a></li>
+                    <li><a href="http://www.ub.edu/rpi/ES/csuFamilia_successions/Convalidacion.html">CONVALIDACION</a></li>
+                </ul>
+                
+                </li>
+            
+
+        </nav>
+        
+        <script>
+            
+            //Desplegar al poner el cursor encima
+            /*$('#menu li').hover(function(){
+             $(this).find('ul').slideToggle('slow');
+             });*/
+        
+        //Desplegar al hacer clic
+        $('#menu li').click(function(){
+                            $(this).find('ul').slideToggle('slow');
+                            });
+                            
+            </script><script>
+        $(function(){
+        // this will get the full URL at the address bar
+        var url = window.location.href;
+        
+        // passes on every "a" tag
+        $("#menu a").each(function() {
+        // checks if its the same on the address bar
+        if(url == (this.href)) {
+        $(this).closest("li").addClass("active");
+        }
+        });
+        });
+        </script>
+
+    </body>
+</html>
